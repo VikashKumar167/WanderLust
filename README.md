@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Vikash Kumar</h1>
 <h3 align="center">Developed a full-stack healthcare web application HealthNexus to streamline doctor appointment booking for patients.</h3>
 
-- 🔭 I’m currently working on **Spotify-Clone**
 
 - 📫 How to reach me **vikashkumar21days@gmail.com**
 
