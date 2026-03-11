@@ -114,33 +114,9 @@ Users can:
 
 ---
 
-# 📂 Project Folder Structure
-WanderLust
-│
-├── models
-│ ├── listing.js
-│ ├── review.js
-│ └── user.js
-│
-├── routes
-│ ├── listings.js
-│ ├── reviews.js
-│ └── users.js
-│
-├── views
-│ ├── layouts
-│ ├── listings
-│ ├── users
-│ └── includes
-│
-├── public
-│ ├── css
-│ ├── js
-│ └── images
-│
-├── utils
-│
-├── app.js
-├── cloudConfig.js
-├── middleware.js
-└── package.json
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/VikashKumar167/WanderLust.git
