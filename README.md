@@ -1,12 +1,146 @@
-<h1 align="center">Hi 👋, I'm Vikash Kumar</h1>
-<h3 align="center">Developed a full-stack healthcare web application HealthNexus to streamline doctor appointment booking for patients.</h3>
+<h1 align="center">🌍 WanderLust</h1>
 
-
-- 📫 How to reach me **vikashkumar21days@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<p align="center">
+A Full Stack Travel Listing Web Application inspired by Airbnb.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?logo=node.js">
+  <img src="https://img.shields.io/badge/Express.js-Framework-black?logo=express">
+  <img src="https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb">
+  <img src="https://img.shields.io/badge/Mongoose-ODM-red?logo=mongoose">
+  <img src="https://img.shields.io/badge/EJS-Template-orange">
+  <img src="https://img.shields.io/badge/Bootstrap-UI-purple?logo=bootstrap">
+  <img src="https://img.shields.io/badge/Passport.js-Auth-blue">
+  <img src="https://img.shields.io/badge/Cloudinary-Image%20Upload-blue?logo=cloudinary">
+  <img src="https://img.shields.io/badge/Mapbox-Maps-black?logo=mapbox">
+</p>
+
+<p align="center">
+  <a href="https://wanderlust-kst3.onrender.com"><strong>🔗 Live Demo</strong></a>
+</p>
+
+---
+
+## 🌐 Live Website
+
+🚀 **Try the app here:**  
+https://wanderlust-kst3.onrender.com
+
+---
+
+# 🎥 Demo Preview
+
+<p align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2R4dGd1cDJ2d2p0aWJodnBqajVjdXh3MThscmNpdG1tb2hha2V3cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7aD2saalBwwftBIY/giphy.gif" width="800">
+</p>
+
+---
+
+# 📌 About The Project
+
+**WanderLust** is a **Full Stack Travel Listing Web Application** where users can explore travel destinations, create their own listings, upload images, and share reviews.
+
+This project is inspired by **Airbnb-style platforms**, allowing travelers to discover amazing places around the world.
+
+Users can:
+
+- Explore listings
+- Create travel destinations
+- Upload images
+- Add reviews
+- View location on map
+- Manage their listings
+
+---
+
+# ✨ Features
+
+### 👤 Authentication
+- User Signup
+- User Login
+- Secure Authentication using **Passport.js**
+
+### 🏠 Listings
+- Create new travel listings
+- Upload images with **Cloudinary**
+- Edit existing listings
+- Delete listings
+- Authorization (Only owner can edit/delete)
+
+### ⭐ Reviews
+- Add reviews to listings
+- Delete reviews
+- Rating system
+
+### 📍 Maps Integration
+- Location displayed using **Mapbox**
+
+### 💬 Flash Messages
+- Success/Error messages for user actions
+
+### 🔐 Security
+- Authentication & Authorization
+- Data validation
+- Protected routes
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- HTML
+- CSS
+- Bootstrap
+- EJS
+
+## Backend
+- Node.js
+- Express.js
+
+## Database
+- MongoDB
+- Mongoose
+
+## Authentication
+- Passport.js
+- Express-session
+
+## Image Storage
+- Cloudinary
+
+## Maps
+- Mapbox
+
+---
+
+# 📂 Project Folder Structure
+WanderLust
+│
+├── models
+│ ├── listing.js
+│ ├── review.js
+│ └── user.js
+│
+├── routes
+│ ├── listings.js
+│ ├── reviews.js
+│ └── users.js
+│
+├── views
+│ ├── layouts
+│ ├── listings
+│ ├── users
+│ └── includes
+│
+├── public
+│ ├── css
+│ ├── js
+│ └── images
+│
+├── utils
+│
+├── app.js
+├── cloudConfig.js
+├── middleware.js
+└── package.json
