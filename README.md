@@ -17,7 +17,7 @@ A Full Stack Travel Listing Web Application inspired by Airbnb.
 </p>
 
 <p align="center">
-  <a href="https://wanderlust-kst3.onrender.com"><strong>🔗 Live Demo</strong></a>
+  <a under construction><strong>🔗 Live Demo</strong></a>
 </p>
 
 ---
@@ -25,7 +25,7 @@ A Full Stack Travel Listing Web Application inspired by Airbnb.
 ## 🌐 Live Website
 
 🚀 **Try the app here:**  
-https://wanderlust-kst3.onrender.com
+Under Construction...
 
 ---
 
@@ -114,6 +114,53 @@ Users can:
 
 ---
 
+# 📡 API Routes
+
+## Listings
+
+| Method | Route | Description |
+|------|------|-------------|
+| GET | /listings | Show all listings |
+| GET | /listings/new | Form to create listing |
+| POST | /listings | Create listing |
+| GET | /listings/:id | Show specific listing |
+| GET | /listings/:id/edit | Edit listing form |
+| PUT | /listings/:id | Update listing |
+| DELETE | /listings/:id | Delete listing |
+
+---
+
+## Reviews
+
+| Method | Route | Description |
+|------|------|-------------|
+| POST | /listings/:id/reviews | Add review |
+| DELETE | /listings/:id/reviews/:reviewId | Delete review |
+
+---
+
+## Users
+
+| Method | Route | Description |
+|------|------|-------------|
+| GET | /signup | Signup form |
+| POST | /signup | Register user |
+| GET | /login | Login form |
+| POST | /login | Authenticate user |
+| GET | /logout | Logout user |
+
+---
+
+## 🧑‍💻Author
+
+Vikash Kumar
+
+---
+
+## 👀 Visitor Counter
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=VikashKumar167&label=Project%20Views&color=blue&style=flat" /> </p>
+
+---
 # ⚙️ Installation & Setup
 
 ## 1️⃣ Clone the repository
